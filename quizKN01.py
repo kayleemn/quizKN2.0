@@ -1,5 +1,24 @@
 #QuizKN.py - Kaylee
-#adding in 2nd question 
+
+#defining a function
+    #name the function
+def run_quest(quest, ansU, check, ansR, grade):
+    print(quest)
+    while check == False
+        try:
+            ansU = int(input("Choose the best reponse based on your knowledge on Drake.  "))
+            if ansU == ansR:
+                print("Okay Cool!")
+                grade += 1
+                check = True
+            elif 0 < ansU < 5:
+                print("Okay Cool!")
+                check = True
+            else:
+            print("Please enter an integer between 0-5") #unacceptable integer
+        except ValueError:
+            print("Um.. that's not one of the choices") # non-integer  
+    
 
 #init variables
 score = int(0)
