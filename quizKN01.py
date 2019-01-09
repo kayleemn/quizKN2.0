@@ -2,43 +2,49 @@
 
 #defining a function
     #name the function
-def run_quest(quest, ansU, check, ansR, grade):
-    print(quest)
-    while check == False
+def run_qa_loop(qStr, qCheck, ansU, ansCor):
+    print(qStr)
+    
+    while qCheck == False:
         try:
             ansU = int(input("Choose the best reponse based on your knowledge on Drake.  "))
-            if ansU == ansR:
+            if ansU == ansCor:
                 print("Okay Cool!")
-                grade += 1
-                check = True
+                #score = int(score+1)
+                qCheck = True
             elif 0 < ansU < 5:
                 print("Okay Cool!")
-                check = True
+                qCheck = True
             else:
-            print("Please enter an integer between 0-5") #unacceptable integer
+                print("Please enter an integer between 0-5") #unacceptable integer
         except ValueError:
-            print("Um.. that's not one of the choices") # non-integer  
-    
+            print("Um.. that's not one of the choices") # non-integer
 
 #init variables
-score = int(0)
+score= int(0)
 
+#question 1
 q1 = """ Question 1: How old is Drake?
 1) 29
 2) 32
 3) 30
 4) 35"""
-a1= int(0)
+          
+a1 = int(0)
 check1 = bool(False)
+q1Ans = 2
 
+#question 2
 q2 = """ Question 2: When is Drake's birthday?
 1) December 7th
 2) July 21st
 3) March 14th
 4) October 24th"""
-a2= int(0)
+          
+a2 = int(0)
 check2 = bool(False)
-
+q2Ans = 4
+          
 #intro
 print("Welcome to my question quiz")
 print("In this progrm you'll be asked one question about my favorite artist!")
@@ -47,42 +53,12 @@ print("Pick your best guess!")
 print()
 print()
 
-#test
-print(q1)
-
-while check1 == False:
-    try:
-        a1 = int(input("Choose the best reponse based on your knowledge on Drake.  "))
-        if a1 == 2:
-            print("Okay Cool!") #correct
-            score = int(score+1)
-            check1 = True
-        elif 0 < a1 < 5: #acceptable
-            print("Okay Cool!")
-            check1 = True
-        else:
-            print("Please enter an integer between 0-5") #unacceptable integer
-    except ValueError:
-        print("Um.. let's think a little harder") # non-integer
-
-print(q2)
-
-while check2 == False:
-    try:
-        a2 = int(input("Choose the best reponse based on your knowledge on Drake.  "))
-        if a2 == 4:
-            print("Okay Cool!") #correct
-            score = int(score+1)
-            check1 = True
-        elif 0 < a2 < 5: #acceptable
-            print("Okay Cool!")
-            check2 = True
-        else:
-            print("Please enter an integer between 0-5") #unacceptable integer
-    except ValueError:
-        print("Um.. that's not one of the choices") # non-integer        
-
+#question 1
+run_qa_loop(q1, a1, check1, q1Ans)
+        
+#question 2
+run_qa_loop(q2, a2, check2, q2Ans)
 
 #score
-print("You got a ", score * 50, "%")
+#print("You got a ", score * 50, "%")
 
