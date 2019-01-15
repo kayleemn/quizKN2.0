@@ -160,5 +160,19 @@ run_qa_loop(q9, a9, check9, q9Ans)
 run_qa_loop(q10, a10, check10, q10Ans)
 
 #score
-print("You got a ", score * 10, "%")
+print("You got a ", grade * 10, "%")
+
+if grade == 10: #100
+    print("Good job, you really know about Drake")
+elif grade == 9: #90
+    print("You almost got a 100%")
+elif grade == 8: #80
+    print("You almost got a 100%")
+elif grade == 7: #90
+    print("You almost got a 100%")
+elif grade == 6: #90
+    print("You almost got a 100%")
+
+
+    
 
