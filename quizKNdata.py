@@ -24,7 +24,7 @@ check2 = bool(False)
 q2Ans = 4
 
 #question 3
-q3 = """ What is Drake's real name?
+q3 = """Question 3: What is Drake's real name?
 1)Champagne Papi
 2)Jimmy Brooks
 3)Aubrey Graham
@@ -35,7 +35,7 @@ check3 = bool(False)
 q3Ans = 3
 
 #question 4
-q4 = """ What's the name of Drake's first mixtape?
+q4 = """Question 4: What's the name of Drake's first mixtape?
 1)Room for Improvement 
 2)Thank Me Later
 3)So Far Gone
@@ -46,7 +46,7 @@ check4 = bool(False)
 q4Ans = 1
 
 #question 5
-q5 = """ Drake played Jimmy Brooks on what teen drama show?
+q5 = """Question 5: Drake played Jimmy Brooks on what teen drama show?
 1)Friends
 2)One Tree Hill
 3)Degrassi: The Next Generation
@@ -57,7 +57,7 @@ check5 = bool(False)
 q5Ans = 3
 
 #question 6
-q6 = """In 2009, which label did Drake signed a record deal with?
+q6 = """Question 6: In 2009, which label did Drake signed a record deal with?
 1)Bad Boy Records 
 2)LBW Entertainment
 3)Stacks on Deck Enetertainment 
@@ -68,7 +68,7 @@ check6 = bool(False)
 q6Ans = 4
 
 #question 7
-q7 = """Drake's song 'Forever' features which other rap artists?
+q7 = """Question 7: Drake's song 'Forever' features which other rap artists?
 1)Kanye West, Usher, Rick Ross
 2)Lil Wayne, Eminem, Kanye West
 3)Nicki Minaj, Tyga, Eminem
@@ -79,7 +79,7 @@ check7 = bool(False)
 q7Ans = 2
 
 #question 8
-q8 = """How many songs does the 'Take Care' Album have?
+q8 = """Question 8: How many songs does the 'Take Care' Album have?
 1)15
 2)20
 3)12
@@ -90,7 +90,7 @@ check8 = bool(False)
 q8Ans = 4
 
 #question 9
-q9 = """Which album is Drake's song 'Fear' in?
+q9 = """Question 9: Which album is Drake's song 'Fear' in?
 1)So Far Gone
 2)Take Care
 3)Views
@@ -101,7 +101,7 @@ check9 = bool(False)
 q9Ans = 1
 
 #question 10
-q10 = """What's my favorite Drake song?
+q10 = """Question 10: What's my favorite Drake song?
 1)Headlines
 2)Best I Ever Had
 3)MIA
