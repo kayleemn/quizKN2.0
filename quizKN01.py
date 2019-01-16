@@ -52,3 +52,12 @@ elif grade == 1: #10
     print("You probably guessed for that one question, 10%")
 elif grade == 0: #0
     print("You know nothing about Drake, kinda sad, we can't be friends, 0%")
+<<<<<<< HEAD
+=======
+
+
+
+
+    
+
+>>>>>>> e3efe13b5d1444e5c96fbc5eef0570ae284179b6
