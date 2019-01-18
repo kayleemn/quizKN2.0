@@ -49,29 +49,29 @@ run_qa_loop(q9, a9, check9, q9Ans)
 run_qa_loop(q10, a10, check10, q10Ans)
 
 #score
-    print("You got a ", grade * 10, "%")
+print("You got a ", grade * 10, "%")
 
-    if grade == 10: #100
-        print("Good job, you really know about Drake, we can be friends, 100%")
-    elif grade == 9: #90
-        print("You almost got a 100%, 90%")
-    elif grade == 8: #80
-        print("That's okay. 80%")
-    elif grade == 7: #70
-        print("You're average, not the best. 70%")
-    elif grade == 6: #60
-        print("That's not that special, 60%")
-    elif grade == 5: #50
-        print("You only got half of those right, 50%")
-    elif grade == 4: #40
-        print("Below a 50%? You do not know Drake, 40%")
-    elif grade == 3: #30
-        print("I mean, not the greatest but, 30%")
-    elif grade == 2: #20
-        print("That was the bare minimum, 20%")
-    elif grade == 1: #10
-        print("You probably guessed for that one question, 10%")
-    elif grade == 0: #0
-        print("You know nothing about Drake, kinda sad, we can't be friends, 0%")
+if grade == 10: #100
+    print("Good job, you really know about Drake, we can be friends, 100%")
+elif grade == 9: #90
+    print("You almost got a 100%, 90%")
+elif grade == 8: #80
+    print("That's okay. 80%")
+elif grade == 7: #70
+    print("You're average, not the best. 70%")
+elif grade == 6: #60
+    print("That's not that special, 60%")
+elif grade == 5: #50
+    print("You only got half of those right, 50%")
+elif grade == 4: #40
+    print("Below a 50%? You do not know Drake, 40%")
+elif grade == 3: #30
+    print("I mean, not the greatest but, 30%")
+elif grade == 2: #20
+    print("That was the bare minimum, 20%")
+elif grade == 1: #10
+    print("You probably guessed for that one question, 10%")
+elif grade == 0: #0
+    print("You know nothing about Drake, kinda sad, we can't be friends, 0%")
 
 
